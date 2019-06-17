@@ -367,3 +367,12 @@ footer p{
       }
 
 }
+
+@media (max-width: 350px){
+      .header a{
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            margin: 0;
+            padding: 0;
+      }
+}
