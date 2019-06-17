@@ -1,0 +1,369 @@
+html{
+    box-sizing: border-box;
+}
+
+
+*,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+  body{
+      font-family: 'Luckiest Guy', cursive;
+      max-width: 100%;
+
+  }
+
+
+/* header */
+  
+.header{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      
+}
+
+h1{
+      font-size: 15vw;
+      background-image: url(images/mex10.jpg);
+      background-size: cover;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: rgba(0, 0, 0, 0.3);
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin: 80px 0 300px;
+      padding: 20px 0;
+      width: 100%;
+}
+
+
+ a{
+      text-decoration: none;
+      list-style: none;
+      font-size: 5vw;
+      color: rgba(243, 7, 21, 0.5);
+      margin-left: 20px;
+}
+a:hover{
+      color: rgba(243, 7, 21, 0.9);
+}
+
+
+/* section cuba */
+.cuba{
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      grid-template-rows:  repeat(3, auto);
+      grid-gap: 20px;
+}
+
+
+.img_cuba1{
+      grid-column: 1 /3;
+      grid-row: 1 / 2;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+}
+
+.img_cuba2{
+      grid-column: 1 /2;
+      grid-row: 3 / 4;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: end;
+      border-radius:30px;
+}
+
+.img_cuba3{
+      grid-column: 3 /4;
+      grid-row: 1 / 2;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: start;
+      border-radius:30px;
+}
+.img_cuba4{
+      grid-column: 2 / 4;
+      grid-row: 3 / 4;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+
+}
+.img_cuba5{
+      grid-column: 2 /4;
+      grid-row: 2 / 3;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+}
+
+.cubatxt{
+      font-size: 6vw;
+      color: rgba(243, 7, 21, 0.8);
+      width: 80%;
+      justify-self: center;
+      align-self: center;
+}
+
+
+
+
+
+/* section mex */
+
+.mex{
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      grid-template-rows:  repeat(3, auto);
+      grid-gap: 20px;
+}
+
+
+.img_mex1{
+      grid-column: 1 /3;
+      grid-row: 1 / 2;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+}
+
+
+
+.img_mex2{
+      grid-column: 3 / 4;
+      grid-row: 1 / 3;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+
+}
+
+.img_mex3{
+      grid-column: 3 /4;
+      grid-row: 2 / 4;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: start;
+      border-radius:30px;
+}
+
+.img_mex4{
+      grid-column: 1 /2;
+      grid-row: 3 / 4;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: end;
+      border-radius:30px;
+}
+
+.img_mex5{
+      grid-column: 1 /2;
+      grid-row: 2 / 3;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+}
+
+.mextxt{
+      font-size: 6vw;
+      color: rgba(243, 7, 21, 0.8);
+      width: 80%;
+      grid-column: 2 / 4;
+      grid-row: 1 / 2;
+      justify-self: end;
+      align-self: start;
+}
+/* section pol */
+
+.pol{
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      grid-template-rows:  repeat(3, auto);
+      grid-gap: 20px;
+}
+
+
+.img_pol1{
+      grid-column: 2 /4;
+      grid-row: 1 / 2;
+      width: 60%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+}
+
+
+
+.img_pol2{
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+
+}
+
+.img_pol3{
+      grid-column: 1 /2;
+      grid-row: 2 / 3;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: start;
+      border-radius:30px;
+}
+
+.img_pol4{
+      grid-column: 1 /2;
+      grid-row: 3 / 4;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: end;
+      border-radius:30px;
+}
+
+.img_pol5{
+      grid-column: 2 /4;
+      grid-row: 2 / 3;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+}
+
+.poltxt{
+      font-size: 6vw;
+      color: rgba(243, 7, 21, 0.8);
+      width: 80%;
+      grid-column: 2 / 4;
+      grid-row: 3 / 4;
+      justify-self: end;
+      align-self: center;
+}
+/* section bcn */
+
+.bcn{
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      grid-template-rows:  repeat(3, auto);
+      grid-gap: 20px;
+}
+
+
+.img_bcn1{
+      grid-column: 1 /3;
+      grid-row: 1 / 2;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+}
+
+
+
+.img_bcn2{
+      grid-column: 3 / 4;
+      grid-row: 1 / 2;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+
+}
+
+.img_bcn3{
+      grid-column: 3 /4;
+      grid-row: 2 / 3;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: start;
+      border-radius:30px;
+}
+
+.img_bcn4{
+      grid-column: 1 /2;
+      grid-row: 3 / 4;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: end;
+      border-radius:30px;
+}
+
+.img_bcn5{
+      grid-column: 3 /4;
+      grid-row: 3 / 4;
+      width: 80%;
+      padding: 30px;
+      align-self: center;
+      justify-self: center;
+      border-radius:30px;
+}
+
+.bcntxt{
+      font-size: 6vw;
+      color: rgba(243, 7, 21, 0.8);
+      width: 80%;
+      grid-column: 1 / 4;
+      grid-row: 2 / 3;
+      justify-self: end;
+      align-self: start;
+}
+/* footer */
+
+footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+}
+
+footer p{
+      margin: 50px 0;
+      padding: 50px;
+      font-size: 2vw;
+      color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 900px){
+
+      h1{
+            margin: 0;
+      }
+
+      img {
+            width: 150%;
+      }
+
+}
