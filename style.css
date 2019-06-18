@@ -368,6 +368,10 @@ footer p{
 }
 
 @media (max-width: 600px){
+
+       h1{
+            margin: 0;
+      }
       .header a{
             display: inline-flex;
       }
@@ -375,8 +379,8 @@ footer p{
       .cuba{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows:  repeat(4, 300px);
-            grid-gap: 20px;
+            grid-template-rows:  100px 300px;
+            
       }
       
       
@@ -442,14 +446,12 @@ footer p{
       
       
       
-      
-      
       /* section mex */
       .mex{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows:  repeat(4, 1fr);
-            grid-gap: 20px;
+            grid-template-rows:  100px 300px;
+            
       }
       
       .img_mex1{
@@ -521,8 +523,8 @@ footer p{
       .pol{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows:  repeat(4, 1fr);
-            grid-gap: 20px;
+            grid-template-rows: 100px 300px;
+            
       }
       
       .img_pol1{
@@ -593,8 +595,8 @@ footer p{
       .bcn{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows:  repeat(4, 1fr);
-            grid-gap: 20px;
+            grid-template-rows: 100px 300px;
+            
       }
       
       .img_bcn1{
