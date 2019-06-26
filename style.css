@@ -334,6 +334,7 @@ footer p{
       }
       .header a{
             display: inline-flex;
+            font-size: 2em;
       }
 
       .cuba {
